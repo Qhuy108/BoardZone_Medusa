@@ -17,6 +17,7 @@
     "start": "cross-env SWC_NATIVE_BINDING_CACHE=C:\\Users\\User\\BoardZone\\swc_cache medusa start",
     "dev": "cross-env SWC_NATIVE_BINDING_CACHE=C:\\Users\\User\\BoardZone\\swc_cache medusa develop",
     "db:migrate": "cross-env SWC_NATIVE_BINDING_CACHE=C:\\Users\\User\\BoardZone\\swc_cache medusa db:migrate",
+    "seed:boardgames": "cross-env SWC_NATIVE_BINDING_CACHE=C:\\Users\\User\\BoardZone\\swc_cache medusa exec ./src/scripts/seed-boardgames.ts",
     "user": "cross-env SWC_NATIVE_BINDING_CACHE=C:\\Users\\User\\BoardZone\\swc_cache medusa user",
     "lint": "medusa lint",
     "test:integration:http": "TEST_TYPE=integration:http NODE_OPTIONS=--experimental-vm-modules jest --silent=false --runInBand --forceExit",

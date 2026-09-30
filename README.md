@@ -47,10 +47,14 @@ BoardZone/
 
 ### Backend (Medusa):
 ```bash
-cd boardzone-medusa/apps/backend
-npm install
+cd boardzone-medusa
 npm run dev
 ```
+- **Backend API:** `http://localhost:9000`
+- **Admin Dashboard:** `http://localhost:9000/app`
+- **Tài khoản Admin:**
+  - **Email:** `admin@boardzone.com`
+  - **Mật khẩu:** `Admin@123456`
 
 ### Storefront (Next.js):
 ```bash
@@ -58,4 +62,5 @@ cd boardzone-storefront
 npm install
 npm run dev
 ```
-Truy cập: `http://localhost:8000` (Backend) | `http://localhost:3000` (Storefront).
+- **Storefront URL:** `http://localhost:3000`
+
